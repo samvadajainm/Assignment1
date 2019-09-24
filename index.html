@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dream Home</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript">
+            function changeText(id) 
+            {
+                var x=document.getElementById(id).innerHTML;
+                document.getElementById("pText").innerHTML=x;
+            }
+        </script>
+	</head>
+	<body>
+		
+			<div class="row">
+			<a href="index.html"><img src="images/logo.svg" class="logo"></a>
+			<ul class="navigation">
+				<li><a href="#"><i class="fa fa-search"></i>&nbsp;FIND YOUR HOME</a></li>
+				<li><a href="#">FLOOR PLANS</a></li>
+				<li><a href="#">NEWS</a></li>
+				<li><a href="#">RESOURCES</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">CONTACT US</a></li>
+				<li><button><a class="btn" href="#"><i class="fa fa-phone"></i>&nbsp;844-766-HOME (4663)</a></button></li>
+			</ul>
+			</div>
+		
+		<div class="container">
+			<img src="images/mail-banner.jpg" class="mail-banner">
+			<img src="images/INFO-BG.svg" class="INFO-BG">
+			<div class="container__column">
+				<h1>Find Your Dream Home</h1>
+				<p>Just enter the City, Community or Zip you're looking within and you're off...</p>
+			</div>
+		</div>
+		<section class="sect">
+			<div class="section__image">
+				<img src="images/01.jpg">
+			</div>
+			<div class="section__text">
+				<h2>Building in the Southeast since 2004</h2>
+				<p>As a regional builder, we know the landscape and climate of the Southeast better than anyone. With lush, green mountains and spawling sandy beaches a short drive away, there is no better place to settle down into your new home.</p>
+				<button><a href="#">Know more</a></button>
+			</div>
+		</section>
+		<section class="sect-two">
+		<div class="container1">
+					<div class="content" id="btn1" onclick="changeText(this.id)">
+						<p><b>2018</b></br></br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor bd.</p>
+					</div>
+					<div class="content1" id="btn2" onclick="changeText(this.id)">
+						<p><b>WINNER!</b></br></br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipsum.</p>
+					</div>
+					<div class="content" id="btn3" onclick="changeText(this.id)">
+						<p><b>GREEN TAG SALE</b></br></br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					</div>
+		</div>
+			<div class="content2" id="pText">
+				<h2>South Carolina's 2018 best Home Builder!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			</div>			
+		</section>
+		<section class="block2">
+			<div class="container2">
+				<div class="column1">
+					<h2>Lorem ipsum dolor sit amet, consectetur</h2>
+					<div class="col">
+						<img src="images/tick-mark-icon.svg" class="tick">
+						<p class="tick-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+					</div>
+					<div class="col">
+						<img src="images/tick-mark-icon.svg" class="tick">
+						<p class="tick-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+					</div>
+					<div class="col">
+						<img src="images/tick-mark-icon.svg" class="tick">
+						<p class="tick-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+					</div>
+				</div>
+					<img src="images/02.jpg" class="column2" />
+			</div>
+			
+		</section>
+		<footer>
+			<div class="footer-copyright">
+					<a href="index.html">
+						<img src="images/logo.svg" class="footer-logo" />
+					</a>
+				<p class="footer-copyright__p">&copy;2019. All rights reserved.</p>
+			</div>
+			<div class="footer-links">
+				<ul>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Legal Terms</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-socialicons">
+				<ul>
+					<li><a href="#">FOLLOW US</a></li>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

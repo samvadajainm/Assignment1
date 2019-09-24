@@ -1,0 +1,205 @@
+/**{
+	border: 1px solid red;
+}*/         
+*{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+			body{
+				font-family: 'Poppins';
+			}
+			.row{
+				max-width: 1440px;
+				margin: 0 auto;
+			}
+			.navigation{
+				float: right;
+			}
+			.logo{
+				padding-top: 10px;
+				padding-left: 130px; 
+			}
+			a:hover{
+				color: chartreuse;
+			}
+			ul li {
+				display: inline-block;
+				padding: 10px;				
+				padding-top: 0;
+				font-size: 12px;	
+			}
+			.search{
+				width: 11px;
+				height: 11px;
+				padding-right: 2px;
+			}
+			.fa fa-phone{
+				color: white;
+			}
+			button a{
+				text-decoration: none;
+				color: rgb(255, 255, 255);
+			}
+			ul li button a:hover{
+				color: chartreuse;
+			}
+			ul li a{
+				text-decoration: none;
+				color: #000;
+			}
+			.btn{
+				color: #F4F4F4;
+			}
+			ul li button{
+				background-color: #C8122E;
+				padding: 10px 10px 10px 10px;
+				font-size: 12px;
+				border: none;
+			}
+			.container{
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.fa-search{
+				color: rgb(153, 153, 153);
+			}
+			h1{
+				font-size: 300%;
+			}
+			h2{
+				font-size: 250%;
+			}
+			.container__column{
+				position: absolute;
+				top: 20%;
+				left: 10%;
+				padding-right: 60%;
+			}
+			.mail-banner{
+    			position: relative;
+    			width: 100%;
+    			top: 0;
+    			left: 0;
+    			height: 100%;
+    			
+		    }
+		    .INFO-BG
+		    {
+		    	height: 100%;
+		    	object-fit: cover;
+		    	position: absolute;
+		    	top:0px;
+		    	left: 0;
+		    	width: 50%;
+		    	background-color: rgba(255,255,255,0.8);
+		    }
+		    .section__image{
+		    	padding: 5% 8% 5% 9%;
+		    	width: 50%;
+		    	height: 100%;
+		    }
+		    .sect{
+		    	display: flex;
+		    	margin-top: 5%;
+		    }
+		    section div button{
+		    	background-color: #0A1118;
+		    	padding: 10px 10px 10px 10px;
+		    	border: none;
+		    	color: #F4F4F4;
+		    }
+		    .section__text{
+		    	margin-top:3%;
+		    	margin-right:10%;
+		    }
+		    .sect-two{
+		    	background-color: #F4F4F4;
+		    	padding: 50px 50px 50px 50px;
+		    	display: flex;
+
+		    }
+		    .container1{
+		    	margin-right: 0px;
+		    	width: 50%;
+		    }
+		    .container1 .content{
+		    	width: 60%;
+		    	font-size: 11px;
+		    	margin-top: 30px;
+		    	margin-left: 90px;
+		    	margin-bottom: 30px;
+		    	padding: 10px 10px 10px 10px;
+		    	background-color:  #ffffff;
+
+		    }
+		    .container1 .content1{
+		    	width: 60%;
+		    	font-size: 11px;
+		    	margin-top: 30px;
+		    	margin-bottom: 30px;
+		    	margin-left: 90px;
+		    	padding: 10px 10px 10px 10px;
+		    	background-color: #ffb366;
+		    	color: #ffffff;
+		    }
+		    .block2{
+		    	background-color: black;
+		    	color: white;
+		    }
+		    .container2{
+		    	margin-right: 0px;
+		    	display: flex;
+		    }
+		    .tick-text{
+		    	margin-top: 5%;
+		    	margin-left: 10%;
+		    }
+		    .content2{
+		    	width: 50%;
+		    	margin-top: 3%;
+		    }
+		    .column2{
+		    	object-fit: cover;
+		    	width: 50%;
+		    }
+		    
+		    .column1{
+		    	padding: 50px 100px 50px 100px;
+		    	width: 50%;
+		    }
+		    .col{
+		    	display: flex;
+		    }
+		    .footer-logo{
+		    	width: 30px;
+		    	height: 30px;
+		    	padding-right:10px;
+		    	padding-top: 5px;
+		    	padding-left: 25%;
+			}
+			.footer-copyright__p{
+				opacity: 0.4;
+			}
+		    .footer-links{
+				width: 100%;
+				opacity: 0.4;
+		    }
+		    .footer-socialicons{
+		    	width: 100%;
+				padding-left: 70px;
+				opacity: 0.4;
+		    }
+		    footer div{
+		    	display: flex;
+		    	font-size: 12px;
+		    	width: 100%;
+		    }
+		    footer{
+				max-width: 1440px;
+				margin-left: 5%;
+		    	display: flex;
+		    	padding-top: 30px;
+		    	padding-bottom: 10px;
+		    }
