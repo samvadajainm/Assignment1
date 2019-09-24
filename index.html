@@ -8,15 +8,17 @@
 		<script type="text/javascript">
             function changeText(id) 
             {
-                var x=document.getElementById(id).innerHTML;
-                document.getElementById("pText").innerHTML=x;
+                var x=document.getElementById(id).firstElementChild.innerHTML;
+                var y=document.getElementById(id).lastElementChild.innerHTML;
+                document.getElementById("h2Text").innerHTML=x;
+				document.getElementById("pText").innerHTML=y;
+
             }
         </script>
 	</head>
 	<body>
-		
 			<div class="row">
-			<a href="index.html"><img src="images/logo.svg" class="logo"></a>
+			<a href="index.html"><img src="images/logo.svg" class="logo"/></a>
 			<ul class="navigation">
 				<li><a href="#"><i class="fa fa-search"></i>&nbsp;FIND YOUR HOME</a></li>
 				<li><a href="#">FLOOR PLANS</a></li>
@@ -24,7 +26,7 @@
 				<li><a href="#">RESOURCES</a></li>
 				<li><a href="#">ABOUT US</a></li>
 				<li><a href="#">CONTACT US</a></li>
-				<li><button><a class="btn" href="#"><i class="fa fa-phone"></i>&nbsp;844-766-HOME (4663)</a></button></li>
+				<li><button><i class="fa fa-phone"></i>&nbsp;844-766-HOME (4663)</button></li>
 			</ul>
 			</div>
 		
@@ -43,27 +45,27 @@
 			<div class="section__text">
 				<h2>Building in the Southeast since 2004</h2>
 				<p>As a regional builder, we know the landscape and climate of the Southeast better than anyone. With lush, green mountains and spawling sandy beaches a short drive away, there is no better place to settle down into your new home.</p>
-				<button><a href="#">Know more</a></button>
+				<button>Know more</button>
 			</div>
 		</section>
 		<section class="sect-two">
 		<div class="container1">
-					<div class="content" id="btn1" onclick="changeText(this.id)">
-						<p><b>2018</b></br></br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor bd.</p>
+					<div class="content" id="btn1" tabindex="0" onfocus="changeText(this.id)">
+						<h3><b>2018</b></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor bd.</p>
 					</div>
-					<div class="content1" id="btn2" onclick="changeText(this.id)">
-						<p><b>WINNER!</b></br></br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipsum.</p>
+					<div class="content1" id="btn2" tabindex="0" onfocus="changeText(this.id)">
+						<h3><b>WINNER!</b></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipsum.</p>
 					</div>
-					<div class="content" id="btn3" onclick="changeText(this.id)">
-						<p><b>GREEN TAG SALE</b></br></br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<div class="content" id="btn3" tabindex="0" onfocus="changeText(this.id)">
+						<h3><b>GREEN TAG SALE</b></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 					</div>
 		</div>
-			<div class="content2" id="pText">
-				<h2>South Carolina's 2018 best Home Builder!</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<div class="content2">
+				<h2 id="h2Text">South Carolina's 2018 best Home Builder!</h2>
+				<p id="pText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 			</div>			
 		</section>
 		<section class="block2">
@@ -104,7 +106,7 @@
 			</div>
 			<div class="footer-socialicons">
 				<ul>
-					<li><a href="#">FOLLOW US</a></li>
+					<li>FOLLOW US</li>
 					<li><a href="#" class="fa fa-facebook"></a></li>
 					<li><a href="#" class="fa fa-instagram"></a></li>
 					<li><a href="#" class="fa fa-twitter"></a></li>
