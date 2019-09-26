@@ -18,14 +18,44 @@
 	</head>
 	<body>
 			<div class="row">
-			<a href="index.html"><img src="images/logo.svg" class="logo"/></a>
+			<a href="index.html" class="logo"><img src="images/logo.svg" class="header-logo"/></a>
 			<ul class="navigation">
 				<li><a href="#"><i class="fa fa-search"></i>&nbsp;FIND YOUR HOME</a></li>
-				<li><a href="#">FLOOR PLANS</a></li>
-				<li><a href="#">NEWS</a></li>
-				<li><a href="#">RESOURCES</a></li>
-				<li><a href="#">ABOUT US</a></li>
-				<li><a href="#">CONTACT US</a></li>
+				<li class="dropdown">
+					<a href="#">FLOOR PLANS</a>
+					<ul class="dropdown-content">
+						<li><a href="#">PlanItem1</a></li>
+						<li><a href="#">PlanItem2</a></li>
+						<li><a href="#">PlanItem3</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">NEWS</a>
+					<ul class="dropdown-content">
+						<li><a href="#">NewsItem1</a></li>
+						<li><a href="#">NewsItem2</a></li>
+						<li><a href="#">NewsItem3</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">RESOURCES</a>
+					<ul class="dropdown-content">
+						<li><a href="#">Item1</a></li>
+						<li><a href="#">Item2</a></li>
+						<li><a href="#">Item3</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">ABOUT US</a>
+					<!-- <ul class="dropdown-content">
+						<li><a href="#">Item1</a></li>
+						<li><a href="#">Item2</a></li>
+						<li><a href="#">Item3</a></li>
+					</ul> -->
+				</li>
+				<li>
+					<a href="form1.html">CONTACT US</a>
+				</li>
 				<li><button><i class="fa fa-phone"></i>&nbsp;844-766-HOME (4663)</button></li>
 			</ul>
 			</div>
@@ -50,15 +80,15 @@
 		</section>
 		<section class="sect-two">
 		<div class="container1">
-					<div class="content" id="btn1" tabindex="0" onfocus="changeText(this.id)">
+					<div class="content" id="btn1" tabindex="0" onclick="changeText(this.id)" onkeypress="changeText(this.id)">
 						<h3><b>2018</b></h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor bd.</p>
 					</div>
-					<div class="content1" id="btn2" tabindex="0" onfocus="changeText(this.id)">
+					<div class="content1" id="btn2" tabindex="0" onclick="changeText(this.id)" onkeypress="changeText(this.id)">
 						<h3><b>WINNER!</b></h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipsum.</p>
 					</div>
-					<div class="content" id="btn3" tabindex="0" onfocus="changeText(this.id)">
+					<div class="content" id="btn3" tabindex="0" onclick="changeText(this.id)" onkeypress="changeText(this.id)">
 						<h3><b>GREEN TAG SALE</b></h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 					</div>
@@ -91,9 +121,9 @@
 		</section>
 		<footer>
 			<div class="footer-copyright">
-					<a href="index.html">
+					
 						<img src="images/logo.svg" class="footer-logo" />
-					</a>
+					
 				<p class="footer-copyright__p">&copy;2019. All rights reserved.</p>
 			</div>
 			<div class="footer-links">

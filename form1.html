@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <form action="thankyou.html" class="contact-form">
+            <h1 class="heading">Contact Form</h1>
+            <div class="form-container">
+                <div class="container__col">
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label" >First Name *</span>
+                </div>
+                <div class="container__col1">
+                        <input type="text" class="inputText" required/>
+                        <span class="floating-label">Last Name *</span>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="container__col">
+                    <input type="email" class="inputText"required/>
+                    <span class="floating-label">E-mail *</span>
+                </div>
+                <div class="container__col1">
+                    <input type="text" class="inputText" required/>
+                    <span class="floating-label" >Company *</span>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="container__col2">
+                    <select class="select-list" placeholder="Industry *" required>
+                        <option>Industry:</option>
+                        <option>Government</option>
+                        <option>Food & Beverage</option>
+                        <option>Healthcare</option>
+                        <option>Retail</option>
+                    </select>
+                </div>
+                <div class="container__col2">
+                    <select class="select-list" placeholder="Job function">
+                        <option>Jobfunction:</option>
+                        <option>IT Architect</option>
+                        <option>Website Design & Development</option>
+                        <option>Business Executive</option>
+                        <option>IT Executive</option>
+                    </select>       
+                </div>
+            </div> 
+            <div class="form-container">
+                <div class="container__col">
+                    <input type="tel" class="inputText" required/>
+                    <span class="floating-label">Phone *</span>
+                </div>
+                <div class="container__col1">
+                    <input type="text" class="inputText" required/>
+                    <span class="floating-label">Country *</span>
+                </div>
+            </div> 
+            <div class="checkbox">
+                <input type="checkbox" required>&nbsp;Yes,I would like to receive updates and information.
+            </div> 
+            <input type="submit" class="submit"/>   
+        </form>
+    </body>
+</html>
